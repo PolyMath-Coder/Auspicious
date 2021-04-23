@@ -11,7 +11,7 @@ router.post('/login', (req, res) => {
 });
 
 
-router.post('/register', (req, res) => {
+router.post('/register', (req, res) =>{
     const latent = new Bios ({
         email: req.body.email,
         username: req.body.username,
